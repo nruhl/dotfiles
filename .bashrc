@@ -93,4 +93,6 @@ alias cpuinfo='lscpu'
 ## get GPU ram on desktop / laptop## 
 alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
-
+## Start and Stop Tomcat Motive Application ##
+alias starttom="sudo $CATALINA_HOME/bin/startup.sh"
+alias stoptom="sudo $CATALINA_HOME/bin/shutdown.sh"
