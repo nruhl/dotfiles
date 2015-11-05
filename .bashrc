@@ -97,4 +97,4 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 alias starttom="sudo $CATALINA_HOME/bin/startup.sh"
 alias stoptom="sudo $CATALINA_HOME/bin/shutdown.sh"
 
-alias catout="sudo tail -n 1000 -F $CATALINA_HOME/logs/catalina.out"
+alias catout="tail -n 1000 -F $CATALINA_HOME/logs/catalina.out"
